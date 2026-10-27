@@ -1,0 +1,7 @@
+services:
+  test:
+    image: alpine
+    volumes:
+      - type: image
+        source: busybox
+        target: /test
